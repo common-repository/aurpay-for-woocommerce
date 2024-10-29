@@ -1,0 +1,26 @@
+.payment_method_aurpay img {
+    min-height: 2.2rem;
+    max-height: 2.4rem;
+    vertical-align: middle;
+}
+
+@media (max-width: 1000px) {
+    .payment_method_aurpay img {
+        height: auto;
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .payment_method_aurpay img {
+        height: 2rem;
+        width: auto;
+    }
+}
+
+select#aurpay_coin {
+    width: 100%!important;
+    min-height: 2.2rem;
+    max-height: 2.4rem;
+    padding: 8px;
+    border-color: #b5b5b5;
+}
